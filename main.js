@@ -46,9 +46,10 @@ const shopModule = (function () {
 
     const addProduct = (product) => {
         const newPrice = _countNewPrice(product.price);
-         const newProduct = Object.assign({}, product, {price: newPrice});
+         const newProduct = Object.assign({},product,{price:newPrice});
         _products.push(newProduct);
     };
+
     const showProducts = () => {
         console.log(_products);
     };
@@ -61,11 +62,13 @@ const shopModule = (function () {
 })();
 
 const product1 = {
+    id: 1,
     name: 'słuchawki',
     price: 200
 };
 
 const product2 = {
+    id: 2,
     name: 'buty',
     price: 300
 };
@@ -73,3 +76,5 @@ const product2 = {
 shopModule.addProduct(product1);
 shopModule.addProduct(product2);
 shopModule.showProducts();
+
+console.log(product1, product2);
