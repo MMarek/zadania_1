@@ -118,3 +118,14 @@ console.log(num2); //5
 
 let score = num1 + num2;
 console.log(score);
+
+// zad 8
+
+let mail = "mildnermarek@gmail.com";
+let position = mail.indexOf("@");
+
+if(position > -1){
+    console.log("to jest email");
+}else{
+    console.log("to nie jest adres email");
+}
