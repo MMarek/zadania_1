@@ -129,3 +129,12 @@ if(position > -1){
 }else{
     console.log("to nie jest adres email");
 }
+
+// zad 9
+
+let age = prompt("Ile masz lat?");
+if(age >=18){
+    console.log("Jesteś pełnoletni");
+}else{
+    console.log("Nie jesteś pełnoletni");
+}
