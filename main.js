@@ -96,3 +96,25 @@ console.log(sqrtResult2);
 
 let sqrtResult3 = Math.pow(3136, 1/2);
 console.log(sqrtResult3);
+
+// zad 6
+
+let min = 15;
+let max = 51;
+let number = Math.floor(Math.random() * (max - min + 1) + min);
+
+console.log(number);
+
+// zad 7
+
+const firstValue = '50px';
+const secoundValue = '5px';
+
+let num1 = parseInt(firstValue);
+console.log(num1); //50
+
+let num2 = parseInt(secoundValue);
+console.log(num2); //5
+
+let score = num1 + num2;
+console.log(score);
