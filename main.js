@@ -88,3 +88,11 @@ console.log(result);
 
 // zad 5
 
+let sqrtResult = Math.pow(144, 1/2);
+console.log(sqrtResult);
+
+let sqrtResult2 = Math.pow(361, 1/2);
+console.log(sqrtResult2);
+
+let sqrtResult3 = Math.pow(3136, 1/2);
+console.log(sqrtResult3);
