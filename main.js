@@ -78,3 +78,13 @@ shopModule.addProduct(product2);
 shopModule.showProducts();
 
 console.log(product1, product2);
+
+// zad 4
+
+let randomNumber = 21;
+let result = Math.floor(randomNumber/2);
+
+console.log(result);
+
+// zad 5
+
