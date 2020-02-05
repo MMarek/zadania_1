@@ -46,7 +46,7 @@ const shopModule = (function () {
 
     const addProduct = (product) => {
         const newPrice = _countNewPrice(product.price);
-         const newProduct = Object.assign({},product,{price:newPrice});
+        const newProduct = Object.assign({}, product, {price: newPrice});
         _products.push(newProduct);
     };
 
@@ -82,19 +82,19 @@ console.log(product1, product2);
 // zad 4
 
 let randomNumber = 21;
-let result = Math.floor(randomNumber/2);
+let result = Math.floor(randomNumber / 2);
 
 console.log(result);
 
 // zad 5
 
-let sqrtResult = Math.pow(144, 1/2);
+let sqrtResult = Math.pow(144, 1 / 2);
 console.log(sqrtResult);
 
-let sqrtResult2 = Math.pow(361, 1/2);
+let sqrtResult2 = Math.pow(361, 1 / 2);
 console.log(sqrtResult2);
 
-let sqrtResult3 = Math.pow(3136, 1/2);
+let sqrtResult3 = Math.pow(3136, 1 / 2);
 console.log(sqrtResult3);
 
 // zad 6
@@ -124,17 +124,48 @@ console.log(score);
 let mail = "mildnermarek@gmail.com";
 let position = mail.indexOf("@");
 
-if(position > -1){
+if (position > -1) {
     console.log("to jest email");
-}else{
+} else {
     console.log("to nie jest adres email");
 }
 
 // zad 9
 
 let age = prompt("Ile masz lat?");
-if(age >=18){
+if (age >= 18) {
     console.log("Jesteś pełnoletni");
-}else{
+} else {
     console.log("Nie jesteś pełnoletni");
+}
+
+// zad 10
+
+let grade = prompt("Podaj stopień z ostatniego egzaminu.");
+switch (grade) {
+    case "6":
+        console.log("celujący");
+        break;
+
+    case "5":
+        console.log("bardzo dobry");
+        break;
+
+    case "4":
+        console.log("dobry");
+        break;
+
+    case "3":
+        console.log("dostateczny");
+        break;
+
+    case "2":
+        console.log("dopuszczalny");
+        break;
+
+    case "1":
+        console.log("niedopuszczalny");
+        break;
+    default:
+        console.log("nieznana wartość");
 }
