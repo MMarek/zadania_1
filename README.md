@@ -16,3 +16,7 @@ Wykorzystnie w zdaniu natywnej metody => Wykorzystnie w zdaniu metody natywnej.
 - zad.9 - `pobranie` od użytkownika informacje: `"Ile masz lat?"`. Odpowiedź potwiedza pełnoletność pytanego, lub niepełnoletność w wypadku wieku poniżej 18 roku życia.
 - zad.10 - wykorzystaj instrukcję warunkową `switch`, by wyświetlić tekst w zależności od wartości: 6 = celujący, 5 = bardzo dobry itd.
 - zad.11 - `pobranie` od użytkownika informacji `(podanie wartości od 1 do 10)` i zestawienie jej z losem komputera. 
+#
+### Wszystkie zadania sprawdzisz na: `https://mmarek.github.io/zadania_1/index.html`
+#`Zapraszam!`
+nie zapomniej załączyć inspektora! :)
