@@ -169,3 +169,19 @@ switch (grade) {
     default:
         console.log("nieznana wartość");
 }
+
+// zad 11
+
+let a = 1;
+let b = 10;
+c = Math.floor(Math.random() * (b - a + 1) + a);
+
+console.log(c); // tą liczbę wybrał komputer
+
+const mathNumber = prompt("Wpisz liczbę od 1 do 10");
+
+if (mathNumber == c) {
+    console.log("Komputer również wybrał tą liczbę");
+}else{
+    console.log("Próbuj do skutku");
+}
